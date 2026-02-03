@@ -69,6 +69,8 @@ class Dropout(Module):
         
         Returns: 
             output : Tensor of shape (*)
+
+        Note: If p_dropout is 0, directly return the input tensor. Otherwise, the random seed may cause problems
         """
         ### BEGIN ASSIGN3_2
         raise NotImplementedError
